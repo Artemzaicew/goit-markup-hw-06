@@ -334,9 +334,17 @@
                     </li>
                 </ul>
             </div>
+            <div class="form-subscribe">
+                <p class="text-form">Subscribe</p>
+                <form class="footer-form">
+                    <label for="email" class="modal-form-field"></label>
+                    <input id="email" class="modal-form-input-footer" type="email" name="user_email" placeholder="E-mail" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">     
+                    <button class="modal-form-submit submit-footer" type="submit">Subscribe</button>  
+                </form>
+            </div>
         </div>
     </footer>
-    <div class="backdrop" data-modal>
+    <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button class="close" data-modal-close>
                 <svg class="close-icon">
@@ -364,7 +372,8 @@
                     </span>
                 </label>
                 <label class="modal-form-field">
-                    <span class="modal-form-input-desc">Email</span><span class="modal-form-input-wrapper">
+                    <span class="modal-form-input-desc">Email</span>
+                    <span class="modal-form-input-wrapper">
                         <input class="modal-form-input" type="email" name="user_email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
                         <svg class="modal-form-input-icon">
                             <use href="./images/symbol-defs.svg#icon-email"></use>
@@ -375,14 +384,9 @@
                     <span class="modal-form-input-desc">Comment</span>
                     <textarea class="modal-form-message" name="user_message" placeholder="Text input"></textarea>
                 </label>
-                <input id="user-policy" class="modal-form-check" type="checkbox" name="user_policy">
+                <input id="user-policy" class="modal-form-check visually-hidden" type="checkbox" name="user_policy">
                 <label class="modal-form-check-desc" for="user-policy">
-                    <span class="modal-form-fake-check">
-                        <svg class="modal-form-check-icon" width="10px" height="8px">
-                            <use href="./images/symbol-defs.svg#icon-ok"></use>
-                        </svg>
-                    </span>
-                    I accept the terms and conditions of the <a href="">Privacy Policy</a></label>
+                    I accept the terms and conditions of the&nbsp;<a href="">Privacy Policy</a></label>
                 <button class="modal-form-submit" type="submit">Send</button>
             </form>
         </div>
