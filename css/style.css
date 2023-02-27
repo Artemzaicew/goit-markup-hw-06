@@ -706,9 +706,9 @@ margin-bottom: 8px;
     display: flex;
     justify-content: center;
     align-items: center;
-    cursor: pointer
+    cursor: pointer;
     
-    color:#000000;
+    color: #000000;
     background-color: #E7E9FC;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
