@@ -812,6 +812,7 @@ margin-bottom: 8px;
 
 .modal-form-message::placeholder {
     color: rgba(117, 117, 117, 0.5);
+    font-size: 12px;
 }
 
 .modal-form-message:focus {
@@ -826,6 +827,7 @@ margin-bottom: 8px;
 
     font-size: 12px;
     line-height: 1.33;
+    color: #757575;
     
 }
 
@@ -845,6 +847,10 @@ margin-bottom: 8px;
     background-image: url(../images/icon-ok.svg);
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.modal-form-check-link {
+    color: #4D5AE5;;
 }
 
 .modal-form-submit {

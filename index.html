@@ -337,8 +337,8 @@
             <div class="form-subscribe">
                 <p class="text-form">Subscribe</p>
                 <form class="footer-form">
-                    <label for="email" class="modal-form-field"></label>
-                    <input id="email" class="modal-form-input-footer" type="email" name="user_email" placeholder="E-mail" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">     
+                    <!-- <label for="email" class="modal-form-field"></label> -->
+                    <input aria-labelledby="email" id="email" class="modal-form-input-footer" type="email" name="user_email" placeholder="E-mail" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">     
                     <button class="modal-form-submit submit-footer" type="submit">Subscribe</button>  
                 </form>
             </div>
@@ -386,7 +386,7 @@
                 </label>
                 <input id="user-policy" class="modal-form-check visually-hidden" type="checkbox" name="user_policy">
                 <label class="modal-form-check-desc" for="user-policy">
-                    I accept the terms and conditions of the&nbsp;<a href="">Privacy Policy</a></label>
+                    I accept the terms and conditions of the&nbsp;<a class="modal-form-check-link" href="">Privacy Policy</a></label>
                 <button class="modal-form-submit" type="submit">Send</button>
             </form>
         </div>
